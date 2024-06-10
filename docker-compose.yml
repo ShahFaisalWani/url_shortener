@@ -32,7 +32,7 @@ services:
     env_file: ./.env
     environment:
       - PORT=${PORT}
-      - APP_DOMAIN=${APP_DOMAIN}
+      - APP_BASE_URL=${APP_BASE_URL}
       - DB_HOST=db
       - DB_USER=${DB_USER}
       - DB_PASS=${DB_PASS}
